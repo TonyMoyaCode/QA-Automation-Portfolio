@@ -1027,3 +1027,75 @@ footer {
         width: 88%;
     }
 }
+/* =====================================================
+   INTERACTIVE QA NETWORK
+   ===================================================== */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Canvas de la red de datos */
+
+#network-canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Mantener el contenido por encima de la animación */
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Integración visual de la fotografía */
+
+.hero-photo {
+    position: relative;
+    z-index: 3;
+}
+
+/* Halo tecnológico alrededor de la foto */
+
+.hero-photo::before {
+    content: "";
+    position: absolute;
+    inset: -25px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 229, 255, 0.18);
+    box-shadow:
+        0 0 25px rgba(0, 229, 255, 0.08),
+        0 0 60px rgba(139, 92, 246, 0.08);
+    pointer-events: none;
+}
+
+/* Segundo anillo */
+
+.hero-photo::after {
+    content: "";
+    position: absolute;
+    inset: -45px;
+    border-radius: 40px;
+    border: 1px solid rgba(139, 92, 246, 0.08);
+    pointer-events: none;
+}
+
+/* Mejor integración del fondo */
+
+.hero::after {
+    pointer-events: none;
+}
+
+/* Reducir animaciones para usuarios que las desactivan */
+
+@media (prefers-reduced-motion: reduce) {
+    #network-canvas {
+        opacity: 0.55;
+    }
+}
