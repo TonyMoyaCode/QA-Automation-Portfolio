@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Antonio Moya | QA Automation</title>
+    <title>Antonio Moya | QA Automation & AI</title>
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
@@ -42,7 +42,6 @@
 
             <div class="container hero-content">
 
-                <!-- TEXTO -->
                 <div class="hero-text">
 
                     <p class="eyebrow">
@@ -54,12 +53,14 @@
                     </h1>
 
                     <h2>
-                        QA Automation
+                        QA Automation & AI
                     </h2>
 
                     <p class="hero-description">
                         Analista QA enfocado en pruebas funcionales,
-                        API Testing y automatización de pruebas.
+                        API Testing y automatización de pruebas,
+                        explorando el uso de Inteligencia Artificial
+                        aplicada a QA.
                     </p>
 
                     <div class="hero-buttons">
@@ -77,15 +78,13 @@
                 </div>
 
 
-                <!-- FOTO -->
                 <div class="hero-photo">
 
-                    <img src="{{ url_for('static', filename='img/Antonio.jpg') }}"
-                         alt="Antonio Moya">
+                    <img
+                        src="{{ url_for('static', filename='img/Antonio.jpg') }}"
+                        alt="Antonio Moya">
 
-                    <div class="photo-status">
-                       
-                    </div>
+                    <div class="photo-status"></div>
 
                 </div>
 
@@ -104,14 +103,11 @@
                 </p>
 
                 <h2>
-                    Calidad de software con enfoque en automatización
+                    Calidad de software, automatización e IA aplicada a QA
                 </h2>
 
                 <p class="section-description">
-                    Soy Analista QA con experiencia en pruebas funcionales,
-                    regresión, re-test y API Testing. Complemento mi experiencia
-                    en aseguramiento de calidad con conocimientos de desarrollo
-                    web y programación orientados a la automatización.
+                    Soy Analista QA con experiencia en pruebas funcionales, regresión, re-test y API Testing. Complemento mi experiencia en aseguramiento de calidad con conocimientos de programación y automatización de pruebas utilizando Python y Playwright. Actualmente estoy explorando la integración de Inteligencia Artificial en la automatización de pruebas, con foco en optimizar el diseño de casos de prueba, la generación de escenarios y el desarrollo de automatizaciones.
                 </p>
 
             </div>
@@ -129,39 +125,140 @@
                 </p>
 
                 <h2>
-                    Herramientas y tecnologías
+                    Tecnologías y herramientas
                 </h2>
+
 
                 <div class="skills-grid">
 
+
+                    <!-- PYTHON -->
                     <div class="skill-card">
-                        <h3>Python</h3>
-                        <p>Programación y automatización de pruebas.</p>
+
+                        <h3>
+                            Python
+                        </h3>
+
+                        <p>
+                            Programación y automatización de pruebas.
+                        </p>
+
                     </div>
 
+
+                    <!-- PLAYWRIGHT -->
                     <div class="skill-card">
-                        <h3>Playwright</h3>
-                        <p>Automatización de pruebas end-to-end.</p>
+
+                        <h3>
+                            Playwright
+                        </h3>
+
+                        <p>
+                            Automatización de pruebas end-to-end
+                            para aplicaciones web.
+                        </p>
+
                     </div>
 
+
+                    <!-- POSTMAN -->
                     <div class="skill-card">
-                        <h3>Postman</h3>
-                        <p>Diseño y ejecución de pruebas de API.</p>
+
+                        <h3>
+                            Postman
+                        </h3>
+
+                        <p>
+                            Diseño y ejecución de pruebas de APIs REST.
+                        </p>
+
                     </div>
 
+
+                    <!-- NEWMAN -->
                     <div class="skill-card">
-                        <h3>Newman</h3>
-                        <p>Ejecución automatizada de colecciones Postman.</p>
+
+                        <h3>
+                            Newman
+                        </h3>
+
+                        <p>
+                            Ejecución automatizada de colecciones Postman.
+                        </p>
+
                     </div>
 
+
+                    <!-- PYTEST -->
                     <div class="skill-card">
-                        <h3>SQL</h3>
-                        <p>Consultas y validación de información.</p>
+
+                        <h3>
+                            Pytest
+                        </h3>
+
+                        <p>
+                            Framework para estructurar y ejecutar
+                            pruebas automatizadas.
+                        </p>
+
                     </div>
 
+
+                    <!-- SQL -->
                     <div class="skill-card">
-                        <h3>Git</h3>
-                        <p>Control de versiones y gestión del código.</p>
+
+                        <h3>
+                            SQL
+                        </h3>
+
+                        <p>
+                            Consultas y validación de información.
+                        </p>
+
+                    </div>
+
+
+                    <!-- JAVASCRIPT -->
+                    <div class="skill-card">
+
+                        <h3>
+                            JavaScript
+                        </h3>
+
+                        <p>
+                            Programación y desarrollo orientado
+                            a automatización.
+                        </p>
+
+                    </div>
+
+
+                    <!-- GIT -->
+                    <div class="skill-card">
+
+                        <h3>
+                            Git
+                        </h3>
+
+                        <p>
+                            Control de versiones y gestión del código.
+                        </p>
+
+                    </div>
+
+
+                    <!-- IA -->
+                    <div class="skill-card">
+
+                        <h3>
+                            IA aplicada a QA
+                        </h3>
+
+                        <p>
+                            Exploración de herramientas de IA para
+                            análisis y automatización de pruebas.
+                        </p>
+
                     </div>
 
                 </div>
@@ -184,8 +281,11 @@
                     Proyectos de QA
                 </h2>
 
+
                 <div class="projects-grid">
 
+
+                    <!-- API AUTOMATION -->
                     <article class="project-card">
 
                         <span class="project-type">
@@ -198,42 +298,66 @@
 
                         <p>
                             Proyecto de pruebas automatizadas de servicios
-                            REST utilizando Postman y Newman.
+                            REST utilizando Postman y Newman, con ejecución
+                            desde línea de comandos y generación de reportes.
                         </p>
 
                         <div class="project-tags">
-                            <span>Postman</span>
-                            <span>Newman</span>
-                            <span>REST</span>
+
+                            <span>
+                                Postman
+                            </span>
+
+                            <span>
+                                Newman
+                            </span>
+
+                            <span>
+                                REST
+                            </span>
+
                         </div>
 
                     </article>
 
 
+                    <!-- PLAYWRIGHT -->
                     <article class="project-card">
 
                         <span class="project-type">
-                            AUTOMATION
+                            WEB AUTOMATION
                         </span>
 
                         <h3>
-                            Web Automation
+                            Playwright Automation
                         </h3>
 
                         <p>
                             Proyecto personal de automatización de pruebas
-                            sobre una aplicación web utilizando Playwright.
+                            end-to-end utilizando Python, Playwright y Pytest
+                            para validar aplicaciones web.
                         </p>
 
                         <div class="project-tags">
-                            <span>Playwright</span>
-                            <span>Python</span>
-                            <span>QA</span>
+
+                            <span>
+                                Playwright
+                            </span>
+
+                            <span>
+                                Python
+                            </span>
+
+                            <span>
+                                Pytest
+                            </span>
+
                         </div>
 
                     </article>
 
 
+                    <!-- PORTFOLIO -->
                     <article class="project-card">
 
                         <span class="project-type">
@@ -245,14 +369,29 @@
                         </h3>
 
                         <p>
-                            Este portfolio desarrollado con Flask,
-                            Python, HTML, CSS y JavaScript.
+                            Portfolio profesional desarrollado con Flask,
+                            Python, HTML, CSS y JavaScript, con despliegue
+                            automático mediante Git y Render.
                         </p>
 
                         <div class="project-tags">
-                            <span>Flask</span>
-                            <span>Python</span>
-                            <span>Testing</span>
+
+                            <span>
+                                Flask
+                            </span>
+
+                            <span>
+                                Python
+                            </span>
+
+                            <span>
+                                Git
+                            </span>
+
+                            <span>
+                                Render
+                            </span>
+
                         </div>
 
                     </article>
@@ -265,273 +404,351 @@
 
 
         <!-- EXPERIENCIA -->
-       <!-- EXPERIENCIA -->
-<section id="experiencia" class="section">
+        <section id="experiencia" class="section">
 
-    <div class="container">
+            <div class="container">
 
-        <p class="section-label">
-            EXPERIENCIA PROFESIONAL
-        </p>
-
-        <h2>
-            Experiencia en QA
-        </h2>
-
-        <div class="experience-card">
-
-            <!-- CABECERA -->
-            <div class="experience-header">
-
-                <div>
-
-                    <p class="experience-year">
-                        ABR 2026 — JUL 2026
-                    </p>
-
-                    <h3>
-                        Analista QA
-                    </h3>
-
-                    <p class="company">
-                        Transtecnia
-                    </p>
-
-                </div>
-
-                <div class="experience-status">
-                    QA
-                </div>
-
-            </div>
-
-
-            <!-- DESCRIPCIÓN -->
-            <div class="experience-intro">
-
-                <p>
-                    Responsable de la ejecución y documentación de pruebas
-                    para aplicaciones web y APIs REST, validando
-                    funcionalidades, reglas de negocio, integraciones,
-                    autenticación, permisos y consistencia de datos.
+                <p class="section-label">
+                    EXPERIENCIA PROFESIONAL
                 </p>
 
-            </div>
+                <h2>
+                    Experiencia en QA
+                </h2>
 
 
-            <!-- ÁREAS DE EXPERIENCIA -->
-            <div class="experience-grid">
-
-                <!-- QA TESTING -->
-                <div class="experience-block">
-
-                    <span class="experience-label">
-                        QA & TESTING
-                    </span>
-
-                    <ul>
-
-                        <li>
-                            Análisis de requerimientos y criterios de aceptación.
-                        </li>
-
-                        <li>
-                            Diseño y ejecución de casos de prueba positivos,
-                            negativos y de borde.
-                        </li>
-
-                        <li>
-                            Pruebas funcionales, regresión e integración.
-                        </li>
-
-                        <li>
-                            Ejecución de re-test para validar correcciones.
-                        </li>
-
-                        <li>
-                            Registro y seguimiento de incidencias en Jira.
-                        </li>
-
-                        <li>
-                            Elaboración de matrices, evidencias y reportes.
-                        </li>
-
-                    </ul>
-
-                </div>
+                <div class="experience-card">
 
 
-                <!-- API TESTING -->
-                <div class="experience-block">
+                    <!-- HEADER EXPERIENCIA -->
+                    <div class="experience-header">
 
-                    <span class="experience-label">
-                        API TESTING
-                    </span>
+                        <div>
 
-                    <ul>
+                            <p class="experience-year">
+                                ABR 2026 — JUL 2026
+                            </p>
 
-                        <li>
-                            Validación de APIs REST mediante Postman y Newman.
-                        </li>
+                            <h3>
+                                Analista QA
+                            </h3>
 
-                        <li>
-                            Verificación de códigos HTTP y respuestas JSON.
-                        </li>
+                            <p class="company">
+                                Transtecnia
+                            </p>
 
-                        <li>
-                            Pruebas de autenticación, refresh token y cierre de sesión.
-                        </li>
+                        </div>
 
-                        <li>
-                            Validación de roles, permisos y bloqueos de usuarios.
-                        </li>
-
-                        <li>
-                            Pruebas de accesos no autorizados y mensajes de error.
-                        </li>
-
-                        <li>
-                            Validación de consistencia de datos.
-                        </li>
-
-                    </ul>
-
-                </div>
-
-
-                <!-- AUTOMATIZACIÓN -->
-                <div class="experience-block">
-
-                    <span class="experience-label">
-                        AUTOMATIZACIÓN
-                    </span>
-
-                    <ul>
-
-                        <li>
-                             Configuración de colecciones y variables de entorno.
-                        </li>
-
-                        <li>
-                             Gestión de tokens, assertions y datos dinámicos.
-                        </li>
-
-                        <li>
-                            Ejecución de las pruebas automatizadas mediante Newman.
-                        </li>
-
-                        <li>
-                            Generación de reportes HTML y JSON para visualizar
-                            los resultados de las ejecuciones.
-                        </li>
-
-                        <li>
-                            Generación de reportes HTML y JSON.
-                        </li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-
-            <!-- MÓDULOS -->
-            <div class="experience-modules">
-
-                <span class="experience-label">
-                    MÓDULOS VALIDADOS
-                </span>
-
-                <div class="experience-tags">
-
-                    <span>Inventario</span>
-                    <span>Compras</span>
-                    <span>Ventas</span>
-                    <span>Facturación digital</span>
-                    <span>Firma electrónica</span>
-                    <span>OTP</span>
-                    <span>Correo</span>
-                    <span>Portales internos</span>
-
-                </div>
-
-            </div>
-
-
-            <!-- STACK -->
-            <div class="experience-tools">
-
-                <span class="experience-label">
-                    STACK QA
-                </span>
-
-                <div class="experience-tags">
-
-                    <span>Postman</span>
-                    <span>Newman</span>
-                    <span>Jira</span>
-                    <span>Git</span>
-                    <span>VS Code</span>
-                    <span>JavaScript</span>
-                    <span>REST</span>
-                    <span>JSON</span>
-                    <span>SQL</span>
-
-                </div>
-
-            </div>
-
-
-            <!-- APORTES -->
-            <div class="experience-achievements">
-
-                <span class="experience-label">
-                    PRINCIPALES APORTES
-                </span>
-
-                <div class="achievement-grid">
-
-                    <div class="achievement">
-
-                        <strong>API</strong>
-
-                        <span>
-                            Validación y pruebas de servicios REST
-                        </span>
+                        <div class="experience-status">
+                            QA
+                        </div>
 
                     </div>
 
 
-                    <div class="achievement">
+                    <!-- INTRO -->
+                    <div class="experience-intro">
 
-                        <strong>QA</strong>
-
-                        <span>
-                            Detección y seguimiento de incidencias
-                        </span>
-
-                    </div>
-
-
-                    <div class="achievement">
-
-                        <strong>TRACE</strong>
-
-                        <span>
-                           Base inicial de automatización de APIs
-                        </span>
+                        <p>
+                            Responsable de la ejecución y documentación
+                            de pruebas para aplicaciones web y APIs REST,
+                            validando funcionalidades, reglas de negocio,
+                            integraciones, autenticación, permisos y
+                            consistencia de datos.
+                        </p>
 
                     </div>
 
 
-                    <div class="achievement">
+                    <!-- EXPERIENCE GRID -->
+                    <div class="experience-grid">
 
-                        <strong>AUTO</strong>
 
-                        <span>
-                            Creación de automatización de regresión para APIs
+                        <!-- QA & TESTING -->
+                        <div class="experience-block">
+
+                            <span class="experience-label">
+                                QA & TESTING
+                            </span>
+
+                            <ul>
+
+                                <li>
+                                    Análisis de requerimientos y criterios
+                                    de aceptación.
+                                </li>
+
+                                <li>
+                                    Diseño y ejecución de casos de prueba
+                                    positivos, negativos y de borde.
+                                </li>
+
+                                <li>
+                                    Pruebas funcionales, regresión e integración.
+                                </li>
+
+                                <li>
+                                    Ejecución de re-test para validar
+                                    correcciones.
+                                </li>
+
+                                <li>
+                                    Registro y seguimiento de incidencias
+                                    en Jira.
+                                </li>
+
+                                <li>
+                                    Elaboración de matrices, evidencias
+                                    y reportes.
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <!-- API TESTING -->
+                        <div class="experience-block">
+
+                            <span class="experience-label">
+                                API TESTING
+                            </span>
+
+                            <ul>
+
+                                <li>
+                                    Validación de APIs REST mediante
+                                    Postman y Newman.
+                                </li>
+
+                                <li>
+                                    Verificación de códigos HTTP y
+                                    respuestas JSON.
+                                </li>
+
+                                <li>
+                                    Pruebas de autenticación, refresh token
+                                    y cierre de sesión.
+                                </li>
+
+                                <li>
+                                    Validación de roles, permisos y
+                                    bloqueos de usuarios.
+                                </li>
+
+                                <li>
+                                    Pruebas de accesos no autorizados
+                                    y mensajes de error.
+                                </li>
+
+                                <li>
+                                    Validación de consistencia de datos.
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <!-- AUTOMATIZACION -->
+                        <div class="experience-block">
+
+                            <span class="experience-label">
+                                AUTOMATIZACIÓN
+                            </span>
+
+                            <ul>
+
+                                <li>
+                                    Configuración de colecciones y
+                                    variables de entorno.
+                                </li>
+
+                                <li>
+                                    Gestión de tokens, assertions y
+                                    datos dinámicos.
+                                </li>
+
+                                <li>
+                                    Ejecución de pruebas automatizadas
+                                    mediante Newman.
+                                </li>
+
+                                <li>
+                                    Generación de reportes HTML y JSON
+                                    para visualizar los resultados
+                                    de las ejecuciones.
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- MODULOS -->
+                    <div class="experience-modules">
+
+                        <span class="experience-label">
+                            MÓDULOS VALIDADOS
                         </span>
+
+                        <div class="experience-tags">
+
+                            <span>
+                                Inventario
+                            </span>
+
+                            <span>
+                                Compras
+                            </span>
+
+                            <span>
+                                Ventas
+                            </span>
+
+                            <span>
+                                Facturación digital
+                            </span>
+
+                            <span>
+                                Firma electrónica
+                            </span>
+
+                            <span>
+                                OTP
+                            </span>
+
+                            <span>
+                                Correo
+                            </span>
+
+                            <span>
+                                Portales internos
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- STACK -->
+                    <div class="experience-tools">
+
+                        <span class="experience-label">
+                            STACK QA
+                        </span>
+
+                        <div class="experience-tags">
+
+                            <span>
+                                Postman
+                            </span>
+
+                            <span>
+                                Newman
+                            </span>
+
+                            <span>
+                                Jira
+                            </span>
+
+                            <span>
+                                Git
+                            </span>
+
+                            <span>
+                                VS Code
+                            </span>
+
+                            <span>
+                                JavaScript
+                            </span>
+
+                            <span>
+                                REST
+                            </span>
+
+                            <span>
+                                JSON
+                            </span>
+
+                            <span>
+                                SQL
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- APORTES -->
+                    <div class="experience-achievements">
+
+                        <span class="experience-label">
+                            PRINCIPALES APORTES
+                        </span>
+
+
+                        <div class="achievement-grid">
+
+
+                            <div class="achievement">
+
+                                <strong>
+                                    API
+                                </strong>
+
+                                <span>
+                                    Validación y pruebas de servicios REST
+                                </span>
+
+                            </div>
+
+
+                            <div class="achievement">
+
+                                <strong>
+                                    QA
+                                </strong>
+
+                                <span>
+                                    Detección y seguimiento de incidencias
+                                </span>
+
+                            </div>
+
+
+                            <div class="achievement">
+
+                                <strong>
+                                    TRACE
+                                </strong>
+
+                                <span>
+                                    Creación de la base inicial para
+                                    la automatización de APIs
+                                </span>
+
+                            </div>
+
+
+                            <div class="achievement">
+
+                                <strong>
+                                    AUTO
+                                </strong>
+
+                                <span>
+                                    Creación y ejecución de automatización
+                                    de regresión para APIs
+                                </span>
+
+                            </div>
+
+
+                        </div>
 
                     </div>
 
@@ -539,102 +756,96 @@
 
             </div>
 
-        </div>
-
-    </div>
-
-</section>
+        </section>
 
 
         <!-- CONTACTO -->
-        <!-- CONTACTO -->
-<section id="contacto" class="section contact-section">
+        <section id="contacto" class="section contact-section">
 
-    <div class="container">
+            <div class="container">
 
-        <p class="section-label">
-            CONTACTO
-        </p>
+                <p class="section-label">
+                    CONTACTO
+                </p>
 
-        <h2>
-            ¿Hablamos de calidad de software?
-        </h2>
+                <h2>
+                    ¿Hablamos de calidad de software?
+                </h2>
 
-        <p>
-            Estoy disponible para conversar sobre oportunidades
-            profesionales, proyectos QA y automatización.
-        </p>
-
-
-        <!-- REDES Y CONTACTO -->
-        <div class="contact-icons">
-
-            <!-- GITHUB -->
-            <a href="https://github.com/TonyMoyaCode"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="contact-icon"
-               aria-label="GitHub">
-
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.41 7.86 10.94.58.1.79-.25.79-.56v-2.01c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18A11.1 11.1 0 0 1 12 8.58c.98 0 1.97.13 2.89.38 2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.69 5.4-5.25 5.69.41.35.78 1.04.78 2.1v3.11c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
-                </svg>
-
-                <span>GitHub</span>
-
-            </a>
+                <p>
+                    Estoy disponible para conversar sobre oportunidades
+                    profesionales, proyectos QA y automatización.
+                </p>
 
 
-            <!-- LINKEDIN -->
-            <a href="https://www.linkedin.com/in/antoniomoyadeveloper/"
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 class="contact-icon"
-                 aria-label="LinkedIn">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M20.45 20.45h-3.56v-5.58c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.68H9.34V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.37 4.28 5.46v6.29ZM5.32 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM3.54 20.45h3.57V8.99H3.54v11.46ZM22.23 0H1.77C.79 0 0 .79 0 1.77v20.46C0 23.21.79 24 1.77 24h20.46c.98 0 1.77-.79 1.77-1.77V1.77C24 .79 23.21 0 22.23 0Z"/>
-                </svg>
+                <div class="contact-icons">
 
-                <span>LinkedIn</span>
+    <!-- GITHUB -->
+    <a
+        href="https://github.com/TonyMoyaCode"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="contact-icon"
+        aria-label="GitHub">
 
-            </a>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor"
+                d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.85 10.91.58.11.79-.25.79-.55v-2.11c-3.19.69-3.86-1.54-3.86-1.54-.53-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.96.1-.74.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.06 0 0 .96-.31 3.15 1.18A10.9 10.9 0 0 1 12 6.07c.97 0 1.94.13 2.85.38 2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.77.11 3.06.73.81 1.18 1.84 1.18 3.1 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.08.78 2.18v3.07c0 .3.21.66.8.55A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+        </svg>
 
-
-            <!-- WHATSAPP -->
-            <a href="https://wa.me/56989753616"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="contact-icon"
-               aria-label="WhatsApp">
-
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M20.52 3.48A11.82 11.82 0 0 0 12.08 0C5.54 0 .22 5.32.22 11.86c0 2.09.55 4.13 1.59 5.92L.12 24l6.38-1.67a11.85 11.85 0 0 0 5.58 1.42h.01c6.54 0 11.86-5.32 11.86-11.86 0-3.17-1.24-6.14-3.43-8.41ZM12.09 21.7a9.82 9.82 0 0 1-5.01-1.37l-.36-.21-3.79.99 1.01-3.69-.23-.38a9.83 9.83 0 1 1 8.38 4.66Zm5.4-7.37c-.3-.15-1.77-.87-2.05-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.89-.79-1.5-1.77-1.67-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.09 4.49.71.31 1.27.5 1.7.64.72.23 1.38.2 1.9.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"/>
-                </svg>
-
-                <span>WhatsApp</span>
-
-            </a>
+        <span>GitHub</span>
+    </a>
 
 
-            <!-- EMAIL -->
-            <a href="mailto:tonymoya89@gmail.com"
-               class="contact-icon"
-               aria-label="Correo electrónico">
+    <!-- LINKEDIN -->
+    <a
+        href="https://www.linkedin.com/in/antoniomoyadeveloper/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="contact-icon"
+        aria-label="LinkedIn">
 
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/>
-                </svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor"
+                d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V8.98h3.41v1.56h.05c.47-.9 1.64-1.85 3.37-1.85 3.61 0 4.28 2.38 4.28 5.47v6.29ZM5.34 7.42a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM3.56 20.45h3.57V8.98H3.56v11.47ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/>
+        </svg>
 
-                <span>Email</span>
+        <span>LinkedIn</span>
+    </a>
 
-            </a>
 
-        </div>
+    <!-- WHATSAPP -->
+    <a
+        href="https://wa.me/56989753616"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="contact-icon"
+        aria-label="WhatsApp">
 
-    </div>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor"
+                d="M20.52 3.48A11.82 11.82 0 0 0 12.07 0C5.52 0 .2 5.32.2 11.87c0 2.09.55 4.13 1.59 5.92L.1 24l6.35-1.67a11.86 11.86 0 0 0 5.62 1.43h.01c6.54 0 11.86-5.32 11.86-11.87 0-3.17-1.24-6.15-3.42-8.41ZM12.08 21.75h-.01a9.85 9.85 0 0 1-5.02-1.37l-.36-.21-3.77.99 1.01-3.67-.23-.38a9.83 9.83 0 0 1-1.51-5.24C2.19 6.44 6.61 2.02 12.08 2.02c2.65 0 5.14 1.03 7.01 2.91a9.84 9.84 0 0 1 2.9 7.01c0 5.47-4.43 9.81-9.91 9.81Zm5.4-7.35c-.3-.15-1.77-.87-2.05-.97-.28-.1-.48-.15-.68.15-.2.3-.78.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.46-.89-.79-1.49-1.77-1.67-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.68-1.64-.93-2.25-.25-.59-.5-.51-.68-.52h-.58c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.09 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.77-.72 2.02-1.41.25-.69.25-1.28.17-1.41-.07-.12-.27-.2-.57-.35Z"/>
+        </svg>
 
-</section>
-    </main>
+        <span>WhatsApp</span>
+    </a>
+
+
+    <!-- EMAIL -->
+    <a
+        href="mailto:tonymoya89@gmail.com"
+        class="contact-icon"
+        aria-label="Correo electrónico">
+
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor"
+                d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/>
+        </svg>
+
+        <span>Email</span>
+    </a>
+
+</div>
 
 
     <!-- FOOTER -->
@@ -643,7 +854,7 @@
         <div class="container">
 
             <p>
-                © 2026 Antonio Moya · QA Automation
+                © 2026 Antonio Moya · QA Automation & AI
             </p>
 
         </div>
@@ -651,6 +862,7 @@
     </footer>
 
 
+    <!-- JAVASCRIPT -->
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 
 </body>
